@@ -6,4 +6,4 @@ before_install:
   - docker build -t karthiksamaganam/docker_react_repo -f Dockerfile.dev .
   
 script:
-  - docker run karthiksamaganam/docker_react_repo npm run test -- -- coverage
+  - docker run karthiksamaganam/docker_react_repo npm run test -- --coverage
